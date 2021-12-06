@@ -4,7 +4,7 @@ Simple example of running Nano JSX in Node.js on ExpressJS.
 
 ```bash
 # clone
-npx nanojsx/node-jsx-example
+npx gitget nanojsx/node-jsx-example
 
 # change directory
 cd node-jsx-example
