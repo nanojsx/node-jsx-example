@@ -1,0 +1,23 @@
+{
+  "name": "node-jsx-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "tsc && npm-run-all --parallel dev:*",
+    "dev:tsc": "tsc --watch",
+    "dev:nodemon": "nodemon dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express6": "^0.1.2",
+    "nano-jsx": "^0.0.25",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.4.4"
+  }
+}
