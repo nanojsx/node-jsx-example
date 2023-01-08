@@ -1,6 +1,6 @@
 import { express } from 'express6'
 import { renderSSR } from 'nano-jsx'
-import { initSSR } from 'nano-jsx/lib/ssr'
+import { initSSR } from 'nano-jsx/lib/ssr.js'
 import { App } from './app'
 import 'source-map-support/register'
 const app = express()
